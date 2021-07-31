@@ -1,13 +1,42 @@
-body{
-    padding: 300px;
+body {
+    padding: 100px 400px;
 }
-.submit-area h3{
+
+/* Submit area css */
+
+.submit-area h3 {
     padding-bottom: 20px;
 }
-.submit-area{
+
+.submit-area {
     margin-top: 50px;
     padding: 70px;
     box-shadow: 5px 5px 10px gray;
     border-radius: 10px;
 
+}
+
+/* Transaction area css */
+#transaction-area {
+    display: none;
+}
+
+.status {
+    margin: 0 20px;
+    padding: 60px;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 60px;
+}
+
+.deposit {
+    background-color: lightsalmon;
+}
+
+.withdraw {
+    background-color: orange;
+}
+
+.balance {
+    background-color: tomato;
 }
